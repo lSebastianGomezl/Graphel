@@ -372,7 +372,7 @@
 
 /*  Index */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     .home{
         flex-direction: column;
     }
