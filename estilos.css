@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*  Index */
+
+.home{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    background-size: cover;
+    justify-content: space-around;
+    height:80px;
+    font-family: sans-serif;
+    box-shadow: 1px 4px 1px #1293d4;
+    margin-bottom: 4px;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.expert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(img/cabecera.jpg);
+    background-size: cover;
+    background-position: 0;
+    height: 400px;
+    margin-top: 3px;
+}
+.titulo2{
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+.titulo3{
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.interfazinput{
+    display: flex;
+}
+.input{
+    height: 28px;
+    width: 195px;
+
+}
+.botoninput{
+    background-color: rgb(243, 82, 7);
+    border: none;
+    width: 130px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navegacion2 {
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    font-family: sans-serif;
+}
+
+.contenedorpadrelenguajes{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 59px;
+    font-family: sans-serif;
+}
+.contenedorimg{
+    width: 250px;
+}
+.imgLeng{
+    width: 100px;
+    margin-top: 50px;
+}
+.imgTitulo{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer{
+    color: white;
+    height: 70px;
+    background-color: #1293d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#multi{
+    padding-left: 5px;
+    color: #1293d4;
+}
+#inicio{
+    color: #1293d4;
+}
+#txt1{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Nosotros */
+
+.containerpadreNosotros{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.container1{
+    width: 700px;
+    font-family: sans-serif;
+}
+
+.container1 p{
+    text-align: justify;
+}
+.container2{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.container2 p{
+    margin-left: 15px;
+    text-align: justify;
+    margin-right: 15px;
+
+}
+.container3{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    width: 440px;
+    /* height: 230px; */
+}
+.container3 p{
+    margin-left: 15px;
+    text-align: justify;
+    margin-right: 15px;
+
+} 
+#tituloc3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+#titlec1{
+    margin-bottom: 15px;
+}
+
+/*Servicios*/
+.containerpadreServicios{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.containerlista{
+    color: #000;
+    background-color: rgba(177, 177, 177, 0.800);
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 14px;
+    margin-bottom: -10px;
+    font-family: sans-serif;
+}
+.containerlista h1{
+    padding:  0 0 25px;
+}
+.precio{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.footer1{
+    color: white;
+    height: 70px;
+    background-color: #1293d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*contacto*/
+.containerpadreContactos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.container1contacto input{
+    width: 700px;
+    font-family: sans-serif;
+}
+.titulosformulario{
+    margin-top: 4px;
+}
+.container1contacto button{
+    width: 95%;
+    height: 30px;
+    background-color: rgb(243, 82, 7);
+    border: none;
+    color: white;
+}
+#tamañoform{
+    width: 700px;
+    height: 30px;
+}
+.mensaje{
+    width: 700px;
+    height: 100px;
+}
+.container2contacto{
+    color: white;
+    background-color: rgb(34, 40, 58);
+    width: 340px;
+    height: 230px;
+}
+.imgMap{
+    width: 340px;
+    height: 250px;
+}
+.container1contacto h2{
+    margin-bottom: 40px;
+}
+#imgMap{
+    width: 440px;
+    height: 270px;
+    margin-top: 61px;
+}
+
+/*Nosotros*/
+@media screen and (max-width: 800px) {
+    .home{
+        flex-direction: row;                                     
+    }
+    .navegacion2{
+        flex-direction: row;
+    }           
+    .botoninput{
+        margin-right: 10px;
+    }
+    .container1{
+        flex-direction: row;
+        width: 730px;
+        margin-left: 30px;
+    }
+    .container1 img{
+        margin: 0;
+    }
+    #titlec1{
+        text-align: center;
+    }
+    .container2{
+        margin-bottom: 5px;
+    }
+    .container3{
+        margin-left: 30px;
+        width: 730px;
+        flex-direction: column;
+    }
+    .containerpadreNosotros{
+        flex-direction: column;
+    }
+    #tituloc3{
+        text-align: center;
+    }
+
+/*Servicios*/
+    .home{
+        flex-direction: column;                                     
+    }
+    .menu{
+        margin-left: 10px;
+        }
+    .containerpadreServicios{
+        flex-direction: column;
+    }
+    .titulo{
+        justify-content: center;
+        font-size: 28px;
+    }
+    .container3{
+        margin-top: 15px;
+    }
+
+    .containerpadreServicios h1{
+        text-align: center;
+    }
+
+/*  Contacto    */
+    .home{
+        flex-direction: column;                                 
+    }
+    .menu{
+        margin-left: 10px;
+    }
+    .containerpadreContactos{
+        flex-direction: column;
+    }
+    .titulosformulario{
+        margin-left: 10px;
+    }
+    .mensaje{
+        margin-left: 10px;
+        width: 750px;
+    }
+    .container1contacto button{
+        width: 94%;
+        margin-left: 10px;
+    }
+    .container3{
+        margin-left: 10px;
+        width: 752px;
+    }
+    .imgMap{
+        width: 100%;
+        height: 450px;
+    }
+    .container1contacto h2{
+        text-align: center;
+    }
+    #tamañoform{
+        width: 750px;
+        margin-left: 10px;
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+    #imgMap{
+        width: 752px;
+        margin-top: 40px;
+        height: 450px;
+    }
+
+
+}
+
+/*  Index */
+
+@media screen and (max-width: 576px) {
+    .home{
+        flex-direction: column;
+    }
+    .navegacion2{
+        flex-direction: column;
+    }
+    .contenedorpadrelenguajes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .titulo{
+        justify-content: center;
+        font-size: 28px;
+    }
+/*  Nosotros */
+
+    .home{
+        flex-direction: column;                                     
+    }
+    .navegacion2{
+        flex-direction: column;
+    }
+    .containerpadreNosotros{
+        flex-direction: column;
+    }
+    .container1{
+        width: 530px;
+        padding-left: 25px;
+    }
+    #titlec1{
+        text-align: center;
+    }
+    .container1 img{
+        padding: 0;
+    }
+    .container3{
+        margin-left: 25px;
+        width: 530px;
+    }
+    #tituloc3{
+        text-align: center;
+    }
+
+/*Servicios*/
+
+    .home{
+        flex-direction: column;                                     
+    }
+   .menu{
+    margin-left: 10px;
+    }
+    .containerpadreServicios{
+        flex-direction: column;
+    }
+    .container1{
+        width: 500px;
+        margin-left: 0;
+    }
+    .container1 h1{
+        text-align: center;
+    }
+    .container3{
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 25px;
+        width: 500px;
+    }
+
+/*Contacto*/
+
+    .home{
+        flex-direction: column;                                     
+    }
+    .menu{
+        margin-left: 10px;
+    }
+    .navegacion2{
+        flex-direction: column;
+        height: 90px;
+    }
+    .containerpadreContactos{
+        flex-direction: column;
+    }
+    .titulosformulario{
+        margin-left: 10px;
+    }
+    .container1contacto h2{
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .container1contacto button{
+        width: 96%;
+        margin-left: 10px;
+    }
+    .mensaje{
+        width: 550px;
+        margin-left: 10px;
+    }
+    .container3{
+        width: 550px;
+        margin-left: 10px;
+        /* height: 190px; */
+    }
+    .imgMap{
+        width: 100%;
+        height: 450px;
+    }
+    #tamañoform{
+        width: 550px;
+        margin-left: 10px;
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+    #imgMap{
+        width: 550px;
+        margin-top: 40px;
+        height: 450px;
+    }
+}
+  
