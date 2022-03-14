@@ -455,6 +455,7 @@
     }
     .menu{
         margin-left: 10px;
+        box-sizing: border-box;
     }
     .navegacion2{
         flex-direction: column;
